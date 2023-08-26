@@ -1,51 +1,33 @@
-## Northwind@MongoDB ##
-Forked from https://github.com/leisenstein/northwind-mongo
-which was forked from https://github.com/tmcnab/northwind-mongo
-which thanks to (@shayden)[https://github.com/shayden] for the csv dump.
+Northwind Shipping Analytics
+
+![NWsquarelogostack](https://github.com/abby1712/NorthWind-Shipping-Analytics/assets/72368959/e42686c8-8944-4729-8c3e-0fecc470facf)
 
 
-### What it is
-
-* Just a simple data dump from SQL's Northwind database to a CSV
-* CSV (northwind.csv) turned into multiple CSVs
-* CSVs imported into Mongo (mongo-import.sh)
+This repository contains the files and information for the Northwind Shipping Analytics project. 
+The project focuses on analyzing shipping data from the Northwind database. 
+The analytics dashboard provides insights into order counts, orders not shipped, and the percentage of orders not shipped based on the selected month. Interactive graphs and maps are used to visualize this data.
 
 
-### What it needs
+Project Objectives
 
-* There aren't any employee/product images
-* It's a straight data dump - no relations or special magic
+The Northwind Shipping Analytics project aims to achieve the following objectives:
 
+Order Insights: Display the total order count for the selected month.
 
-Thanks to [@shayden](https://github.com/shayden) for the csv dump. Buyer beware, caveat emptor, carthago delenda est et al
+Orders Not Shipped: Visualize the count of orders that were not shipped in the selected month.
 
+Percentage Not Shipped: Calculate and visualize the percentage of orders that were not shipped.
 
+Interactive Graphs: Provide interactive graphs to enhance the understanding of shipping data.
 
-## Collections To Create
+Geographical View: Present a map with color density to highlight areas with a high number of orders not shipped.
 
-### Employees
-* Has Territories []
+Working:
 
-### Customers
-* Has Order []
-
-
-### Orders
-* Has Order-Details []
-* Has CustomerID
-* Has EmployeeID
-* Has ShipperID "ShipVia"
+https://public.tableau.com/app/profile/abhishek.sebastian/viz/NORTHWIND-SHOPPING_ANALYTICS/Dashboard1
 
 
-### Order-Details
-* Has OrderID
-* Has ProductID
+<img width="1426" alt="DashBoard" src="https://github.com/abby1712/NorthWind-Shipping-Analytics/assets/72368959/6349bd83-d573-4e4c-849d-cc701a5bee48">
 
 
-### Products
-* Has SupplierID
-* Has CategoryID
 
-
-### Territories
-* Has RegionID
