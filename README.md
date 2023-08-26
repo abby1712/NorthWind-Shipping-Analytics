@@ -1,6 +1,7 @@
 Northwind Shipping Analytics
 
-![NWsquarelogostack](https://github.com/abby1712/NorthWind-Shipping-Analytics/assets/72368959/e42686c8-8944-4729-8c3e-0fecc470facf)
+<img width="300" alt="Logo" ![NWsquarelogostack](https://github.com/abby1712/NorthWind-Shipping-Analytics/assets/72368959/b41bdfe8-2963-4b3c-839c-6b713fecd0db) >
+
 
 
 This repository contains the files and information for the Northwind Shipping Analytics project. 
