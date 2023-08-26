@@ -1,6 +1,6 @@
 Northwind Shipping Analytics
 
-<img width="300" alt="Logo" ![NWsquarelogostack](https://github.com/abby1712/NorthWind-Shipping-Analytics/assets/72368959/b41bdfe8-2963-4b3c-839c-6b713fecd0db) >
+![NWsquarelogostack](https://github.com/abby1712/NorthWind-Shipping-Analytics/assets/72368959/b41bdfe8-2963-4b3c-839c-6b713fecd0db) 
 
 
 
